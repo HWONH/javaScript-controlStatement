@@ -214,3 +214,30 @@ var divide = $num01 / $num02;
 document.write("divide = "+divide, "<br>");
 var reminder = $num01 % $num02;
 document.write("reminder = "+reminder, "<br>");
+
+// Ex_03
+var $num03 = 36;
+var $num04 = 12;
+var $result = $num03+=$num04;
+document.write("$result(+=) = "+$result, "<br>");
+var $result = $num03-=$num04;
+document.write("$result(-=) = "+$result, "<br>");
+var $result = $num03*=$num04;
+document.write("$result(*=) = "+$result, "<br>");
+var $result = $num03/=$num04;
+document.write("$result(/=) = "+$result, "<br>");
+var $result = $num03%=$num04;
+document.write("$result(%=) = "+$result, "<br>");
+
+var $num03 = 36;
+var $num04 = 12;
+$num03+=$num04;
+document.write("$result(+=) = "+$num03, "<br>");
+$num03-=$num04;
+document.write("$result(-=) = "+$num03, "<br>");
+$num03*=$num04;
+document.write("$result(*=) = "+$num03, "<br>");
+$num03/=$num04;
+document.write("$result(/=) = "+$num03, "<br>");
+$num03%=$num04;
+document.write("$result(%=) = "+$num03, "<br>");
