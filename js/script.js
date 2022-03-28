@@ -304,3 +304,39 @@ for(i=1;i<=2;i++){
 }
 $t+="</table>";
 document.write($t);
+
+// 형 변환
+// 명시적 형변환(문자형 데이터를 숫자형 데이터로 변환, 숫자형 데이터를 문자형 데이터로 변환)
+
+// String() : 일반적으로 숫자형 데이터를 문자형 데이터로 변환시키라는 명령, 대소문자 주의
+document.write("<h3>명시적 형변환 : 숫자를 문자로 변경</h3>");
+var $numToStr=10000;
+document.write("$numToStr의 원본 데이터 형태 : "+typeof $numToStr, "<br>"); // number
+var $ch_numToStr=String($numToStr);
+document.write("$numToStr의 변환 데이터 형태 : "+typeof $ch_numToStr, "<br>"); // string
+
+// Number() : 일반적으로 문자형 데이터를 숫자형 데이터로 변환시키라는 명령, 대소문자 주의
+document.write("<h3>명시적 형변환 : 문자를 숫자로 변경</h3>");
+var $strToNum="1234.5678";
+document.write("$strToNum의 원본 데이터 형태 : "+typeof $strToNum, "<br>"); // string
+var $ch_strToNum=Number($strToNum);
+document.write($ch_strToNum, "<br>");
+document.write("$strToNum의 변환 데이터 형태 : "+typeof $ch_strToNum, "<br>"); // number
+
+// parseInt() : 문자형 데이터를 숫자형 데이터로 변환시키되 정수값만 반환(저장)시키라는 명령;반올림 안됨, 소수점 이하는 절삭 처리;parse(분석하다)+integer(정수)
+var $chInt_strToNum=parseInt($strToNum);
+document.write($chInt_strToNum, "<br>"); // 1234
+document.write("$strToNum의 변환(Integer) 데이터 형태 : "+typeof $chInt_strToNum, "<br>"); // number
+
+// parseFloat() : 문자형 데이터를 숫자형 데이터로 변환시키되 소수점 이하의 모든 실수 영역을 반환시키라는 명령
+var $chFloat_strToNum = parseFloat($strToNum);
+document.write($chFloat_strToNum, "<br>"); // 1234.5678
+document.write("$strToNum의 변환(Float) 데이터 형태 : "+typeof $chFloat_strToNum, "<br>"); // number
+
+// 덧셈, 뺄셈 구하기
+/* var number1=Number(prompt("첫 번째 숫자를 입력하세요.","")); // prompt()의 값은 문자형 데이터 혹은 숫자형 데이터 모두 될 수 있으므로 Number()로 감싸주자!
+var number2=Number(prompt("두 번째 숫자를 입력하세요.",""));
+var sum=number1+number2;
+var substract=number1-number2;
+alert("입력받은 수 : "+number1+", "+number2+"\n\n"+"SUM : "+sum+"\n"+"SUBSTRACT : "+substract);
+ */
