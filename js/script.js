@@ -141,3 +141,23 @@ document.write("<hr>"); // 블록 엘리먼트;한줄 긋기 위한 구분선(�
 for(j = 1;j <= 9;j++){
     document.write("<img class='view_img' src='img/view"+j+".jpg' alt='이미지"+j+"'>");
 }
+
+document.write("<h4>반복문 - for - break</h4>");
+// 반복문을 종료할 때 사용
+
+for(i=1;i<=10;i++){
+    if(i>6){ // i값이 7,8,9,10 일 때
+        break; // 조건에 부합할 경우 반복문 탈출(강제종료)
+    }
+    document.write(i, "<br>"); // 1,2,3,4,5,6
+}
+
+document.write("<h4>반복문 - for - continue</h4>");
+// 반복을 중단시켰다가 증감식으로 이동하여 연속적으로 반복을 재실행
+
+for(i=1;i<=10;i++){
+    if(i==6){ // i값이 6 일 때
+        continue; // 조건에 부합할 경우 반복문 일시중단
+    }
+    document.write(i, "<br>"); // 1,2,3,4,5,7,8,9,10
+}
