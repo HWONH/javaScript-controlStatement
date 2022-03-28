@@ -290,3 +290,17 @@ document.write("<hr>");
 for($bx_num=1;$bx_num<=10;$bx_num++){
     document.write("<div class='bx_num1'></div>");
 }
+
+// Ex_05 중첩 for문을 이용한 테이블 구성(2행 3열)
+var td_num=1; // 1,2,3,4,5,6   td_num++
+var $t="<table border='1'>";
+for(i=1;i<=2;i++){
+    $t+="<tr>";
+    for(j=1;j<=3;j++){
+        $t+="<td>"+td_num+"</td>";
+        td_num++;
+    }
+    $t+="</tr>";
+}
+$t+="</table>";
+document.write($t);
