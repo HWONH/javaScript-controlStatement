@@ -1,0 +1,16 @@
+@charset "utf-8";
+.view_img, .m_img{width: 120px;}
+
+div[class^="view"]{
+    width: 200px;height: 200px;display: inline-block;
+    background-size: cover;background-position: 50% 50%;
+}
+div.view1{background-image: url("../img/view1.jpg");}
+div.view2{background-image: url("../img/view2.jpg");}
+div.view3{background-image: url("../img/view3.jpg");}
+div.view4{background-image: url("../img/view4.jpg");}
+div.view5{background-image: url("../img/view5.jpg");}
+div.view6{background-image: url("../img/view6.jpg");}
+div.view7{background-image: url("../img/view7.jpg");}
+div.view8{background-image: url("../img/view8.jpg");}
+div.view9{background-image: url("../img/view9.jpg");}

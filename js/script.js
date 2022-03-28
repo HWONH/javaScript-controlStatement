@@ -88,3 +88,26 @@ switch($my_subway){
 }
 // case - break에서 break의 역할은 정확하게 일치하는 경우의 수를 끊어서 탈출하도록 사용
  */
+
+document.write("<h3>반복문 - while</h3>");
+// 1) 초기값 => 2) 조건식 검사 진행 => 3) 실행문 => 4) 증감식 
+var $i = 1; // 초기값
+while($i<=10){ // 조건식
+    document.write($i, "<br>"); // 실행문
+    $i++;
+}
+
+// 브라우저 화면상에 이미지를 반복하여 뿌려주기 view1_jpg ~ view9_jpg
+var $j = 1;
+while($j <= 9){
+    document.write("<img class='view_img' src='img/view"+$j+".jpg'>");
+    $j++;
+}
+document.write("<div></div>")
+
+// 캘린더 반복문을 활용하여 브라우저에 뿌려주기
+var $calendar = 1;
+while($calendar <= 12){
+    document.write("<img class='m_img' src='img/m_" + $calendar + ".png'>");
+    $calendar++;
+}
