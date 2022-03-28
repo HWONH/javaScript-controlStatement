@@ -69,3 +69,22 @@ if($num >= 1000){
     }
 }
  */
+
+document.write("<h3>선택문 - switch case - break</h3>");
+// 지하철호선에 따른 선택
+/* var $my_subway = prompt("당신이 타게될 지하철 호선 번호를 입력하세요.\n(1~4까지 입력)", "2");
+switch($my_subway){
+    case "1" : document.write("빨간색 1호선을 선택했습니다.", "<br>");
+    break;
+    case "2" : document.write("녹색 2호선을 선택했습니다.", "<br>");
+    break;
+    case "3" : document.write("주황색 3호선을 선택했습니다.", "<br>");
+    break;
+    case "4" : document.write("파란색 4호선을 선택했습니다.", "<br>");
+    break;
+    default : alert("유효값이 아닙니다. 다시 작성해주세요.");
+    location.reload();
+    // default : document.write("유효값이 아닙니다.", "<br>");
+}
+// case - break에서 break의 역할은 정확하게 일치하는 경우의 수를 끊어서 탈출하도록 사용
+ */
