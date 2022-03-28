@@ -161,3 +161,13 @@ for(i=1;i<=10;i++){
     }
     document.write(i, "<br>"); // 1,2,3,4,5,7,8,9,10
 }
+
+document.write("<h4>반복문 - 중첩 for</h4>");
+// 1차 for문이 실행되는 동안 내부의 2차 for문이 반복적으로 실행
+// 중첩 for문을 활용한 구구단 만들기
+for(i=2;i<=9;i++){
+    document.write("<h4>"+i+"단</h4>");
+    for(j=1;j<=9;j++){
+        document.write(i+"×"+j+"="+(i*j), "<br>");
+    }
+}
