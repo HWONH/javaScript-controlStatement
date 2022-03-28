@@ -273,3 +273,20 @@ if($num_in>=1000){
     }
 }
  */
+
+// Ex_07
+var $bx_num = 1;
+while($bx_num<=10){
+    document.write("<div class='bx_num1'></div>");
+    $bx_num++;
+}
+document.write("<hr>");
+var $bx_num = 1;
+do{
+    document.write("<div class='bx_num1'></div>");
+    $bx_num++;
+}while($bx_num<=10)
+document.write("<hr>");
+for($bx_num=1;$bx_num<=10;$bx_num++){
+    document.write("<div class='bx_num1'></div>");
+}
