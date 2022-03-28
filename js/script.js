@@ -340,3 +340,26 @@ var sum=number1+number2;
 var substract=number1-number2;
 alert("입력받은 수 : "+number1+", "+number2+"\n\n"+"SUM : "+sum+"\n"+"SUBSTRACT : "+substract);
  */
+
+//Ex_08
+document.write("<hr>");
+var $bx_limit=prompt("보여줄 박스의 개수를 입력하세요.","");
+var $m=1;
+while($m<=$bx_limit){
+    document.write("<div class='bx_num2'></div>");
+    $m++;
+}
+
+document.write("<hr>");
+var $bx_limit=prompt("보여줄 박스의 개수를 입력하세요.","");
+var $m=1;
+do{
+    document.write("<div class='bx_num2'></div>");
+    $m++;
+}while($m<=$bx_limit)
+
+document.write("<hr>");
+var $bx_limit=prompt("보여줄 박스의 개수를 입력하세요.","");
+for($m=1;$m<=$bx_limit;$m++){
+    document.write("<div class='bx_num2'></div>");
+}
