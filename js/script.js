@@ -200,3 +200,17 @@ for(h;h<=9;h++){
     }
 }
  */
+
+// Ex_02
+var $num01 = 36;
+var $num02 = 12;
+var sum = $num01 + $num02;
+document.write("sum = "+sum, "<br>");
+var substract = $num01 - $num02;
+document.write("substract = "+substract, "<br>");
+var multiply = $num01 * $num02;
+document.write("multiply = "+multiply, "<br>");
+var divide = $num01 / $num02;
+document.write("divide = "+divide, "<br>");
+var reminder = $num01 % $num02;
+document.write("reminder = "+reminder, "<br>");
