@@ -247,3 +247,18 @@ document.write("$result(%=) = "+$num03, "<br>");
 var $height = prompt("브라우저의 세로 값(px)", "0");
 document.write("브라우저의 총 면적(px) : "+($width * $height), "<br>");
  */
+
+// Ex_05
+var $t = "<table border='1'>";
+$t+="<tr>";
+$t+="<td>1</td>";
+$t+="<td>2</td>";
+$t+="<td>3</td>";
+$t+="</tr>";
+$t+="<tr>";
+$t+="<td>4</td>";
+$t+="<td>5</td>";
+$t+="<td>6</td>";
+$t+="</tr>";
+$t+="</table>";
+document.write($t);
