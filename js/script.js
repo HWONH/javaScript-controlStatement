@@ -241,3 +241,9 @@ $num03/=$num04;
 document.write("$result(/=) = "+$num03, "<br>");
 $num03%=$num04;
 document.write("$result(%=) = "+$num03, "<br>");
+
+// Ex_04
+/* var $width = prompt("브라우저의 가로 값(px)", "0");
+var $height = prompt("브라우저의 세로 값(px)", "0");
+document.write("브라우저의 총 면적(px) : "+($width * $height), "<br>");
+ */
