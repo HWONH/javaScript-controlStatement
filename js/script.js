@@ -171,3 +171,32 @@ for(i=2;i<=9;i++){
         document.write(i+"×"+j+"="+(i*j), "<br>");
     }
 }
+
+document.write("<h4>실습 응용</h4>");
+// 사용자가 입력한 값의 구구단 작성하기
+/* var i=prompt("단을 표현할 수를 입력하세요.", "");
+document.write("내가 선택한 단은 : "+i+"단", "<br>");
+for(k=1;k<=9;k++){
+document.write(i+"x"+k+"="+(i*k), "<br>");
+}
+ */
+
+// 사용자가 입력한 값부터 구구단 작성하기
+/* var n=prompt("시작할 단의 수를 입력하세요.", "");
+for(h=n;h<=9;h++){
+    document.write("<h4>"+h+"단</h4>");
+    for(m=1;m<=9;m++){
+        document.write(h+"×"+m+"="+(h*m), "<br>");
+    }
+}
+ */
+
+// 아래의 방식보다 위의 방식을 현장에선 더 선호(cuz. 수정용이)
+/* var h=prompt("시작할 단의 수를 입력하세요.", "");
+for(h;h<=9;h++){
+    document.write("<h4>"+h+"단</h4>");
+    for(m=1;m<=9;m++){
+        document.write(h+"×"+m+"="+(h*m), "<br>");
+    }
+}
+ */
