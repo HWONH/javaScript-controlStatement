@@ -111,3 +111,17 @@ while($calendar <= 12){
     document.write("<img class='m_img' src='img/m_" + $calendar + ".png'>");
     $calendar++;
 }
+
+document.write("<h3>반복문 - do ~ while</h3>");
+// 1) 초기값 => 2) 실행문(do) => 3) 증감식 => 4) 조건식 검사 진행
+var $k = 1;
+do{
+    document.write($k, "<br>");
+    $k++;
+}while($k <= 10)
+
+var $img = 1;
+do{
+    document.write("<img class='img_png' src='img/img_0"+$img+".png'>");
+    $img++;
+}while($img <= 3)

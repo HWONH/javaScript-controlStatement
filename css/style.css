@@ -1,5 +1,5 @@
 @charset "utf-8";
-.view_img, .m_img{width: 120px;}
+.view_img, .m_img .img_png{width: 120px;}
 
 div[class^="view"]{
     width: 200px;height: 200px;display: inline-block;
