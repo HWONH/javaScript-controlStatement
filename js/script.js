@@ -125,3 +125,19 @@ do{
     document.write("<img class='img_png' src='img/img_0"+$img+".png'>");
     $img++;
 }while($img <= 3)
+
+document.write("<h3>반복문 - for</h3>");
+// 1) 초기값 => 2) 조건식 => 3) 실행문 => 4) 증감식
+for($i = 1;$i <= 10;$i++){ // var i = 1;라고 선언해도 됨
+    document.write($i, "<br>");
+}
+
+// css문서에서 배경이미지 처리
+for(k = 1;k <=9;k++){
+    document.write("<div class='view"+k+"'></div>");
+}
+document.write("<hr>"); // 블록 엘리먼트;한줄 긋기 위한 구분선(가로라인)
+// 스크립트에서 이미지 처리
+for(j = 1;j <= 9;j++){
+    document.write("<img class='view_img' src='img/view"+j+".jpg' alt='이미지"+j+"'>");
+}
