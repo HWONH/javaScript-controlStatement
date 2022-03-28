@@ -262,3 +262,14 @@ $t+="<td>6</td>";
 $t+="</tr>";
 $t+="</table>";
 document.write($t);
+
+// Ex_06
+/* var $num_in = prompt("네 자리 이상의 수를 입력하세요.", "");
+if($num_in>=1000){
+    if($num_in%7==0){
+        document.write("입력한 "+$num_in+"은(는) 7의 배수입니다.", "<br>");
+    }else{
+        document.write("입력한 "+$num_in+"은(는) 7의 배수가 아닙니다.", "<br>");
+    }
+}
+ */
